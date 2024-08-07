@@ -47,7 +47,7 @@ HTML no es un lenguaje de programación; es un lenguaje de marcado que define la
 ---
  
 # Fundamentos de HTML
-
+![anatomia-web](https://ax-blog.axarnet.dev/blog/images/blog/2022/estructura-web/partes-estructura-header-bot-footer.jpg)
 ## Anatomía de un elemento HTML
 
 ![img-anatomia-html-mdn](https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics/grumpy-cat-small.png)
