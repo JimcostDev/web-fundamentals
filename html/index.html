@@ -1,152 +1,86 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog de Tecnología de Ronaldo Jiménez</title>
-    <meta name="description" content="Blog de Ronaldo Jiménez sobre tecnología, programación y desarrollo web.">
-    <meta name="keywords" content="Ronaldo Jiménez, tecnología, programación, desarrollo web, blog">
+    <title> Jimcostdev | Portafolio </title>
+    <link rel="icon" type="image/webp" href="img/logo.webp" /> <!-- Favicon -->
+    <meta name="description" content="¡Hola! Soy Ronaldo Jiménez, un Software Developer apasionado por la creación de soluciones tecnológicas. Descubre mi experiencia laboral, educación y más.">
+    <meta name="keywords" content="Ronaldo Jiménez, Web Developer, Desarrollador web, jimcostdev, Python">
     <meta name="author" content="Ronaldo Jiménez">
-    <meta property="og:title" content="Blog de Tecnología de Ronaldo Jiménez">
-    <meta property="og:description" content="Blog de Ronaldo Jiménez sobre tecnología, programación y desarrollo web.">
-    <meta property="og:image" content="https://www.jimcostdev.com/img/blog-banner.jpg">
+    <!--Open Graph (integrar la página web con redes sociales.) -->
+    <meta property="og:title" content="JimcostDev by Ronaldo Jiménez | Software Developer">
+    <meta property="og:description" content="¡Hola! aqui va mi super descripción">
+    <meta property="og:image" content="https://user-images.githubusercontent.com/53100460/254561844-6471bed7-ba32-4d66-b05f-007da9a95620.jpg">
     <meta property="og:url" content="https://www.jimcostdev.com/">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Blog de Tecnología de Ronaldo Jiménez">
-    <meta name="twitter:description" content="Blog de Ronaldo Jiménez sobre tecnología, programación y desarrollo web.">
-    <meta name="twitter:image" content="https://www.jimcostdev.com/img/blog-banner.jpg">
-    <link rel="icon" href="/img/logo.webp" type="image/webp">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
-<header>
-    <h1>Blog de Tecnología de Ronaldo Jiménez</h1>
-    <nav>
+    <!--cargar css-->
+    <link rel="stylesheet" href="/css/styles.css">
+  </head>
+  <body>
+    <!-- El header o cabecera es la parte superior de un sitio web. 
+     En este se colocan los elementos más importantes de la navegación, como el menú principal; 
+     y los de la marca en sí, como el logo, los iconos de las redes sociales, etc.  -->
+    <header>
+      <nav>
         <ul>
-            <li><a href="/">Inicio</a></li>
-            <li><a href="/about">Acerca de</a></li>
-            <li><a href="/contact">Contacto</a></li>
+          <li><a href="/">Inicio</a></li>
+          <li><a href="/#projects">Proyectos</a></li>
+          <li><a href="/#exp">Experiencia</a></li>
         </ul>
-    </nav>
-</header>
+      </nav>
+    </header>
+    <!-- El main o contenido principal es la parte central de un sitio web.-->
+    <main>
+      <!-- div es un contenedor de nivel de bloque, es decir, un elemento que normalmente se muestra en una nueva línea y que abarca todo el ancho de su contenedor principal. -->
+      <div> 
+        <img src="https://www.jimcostdev.com/dev.webp" alt="Ronaldo Jiménez" />
+      </div>
+      <h1>Hola soy Ronaldo Jimenez, <strong>Desarrollador de Software</strong></h1>
 
-<main>
-    <article>
+      <!-- section nos permite dividir el contenido de una página en secciones o grupos de contenido temáticos. -->
+      <section>
         <header>
-            <h2>La Importancia de Aprender HTML</h2>
-            <p>Publicado el <time datetime="2024-07-26">26 de julio de 2024</time> por <a href="/about">Ronaldo Jiménez</a></p>
+          <h2 id="projects">Proyectos</h2>
+          <p>He participado en diversidad de proyectos, te comparto los mas importantes</p>
         </header>
-        <section>
-            <h3>Introducción</h3>
-            <p>HTML es el lenguaje base de la web y aprenderlo es esencial para cualquier desarrollador web. En este artículo, exploraremos por qué es importante aprender HTML y cómo puede beneficiar tu carrera.</p>
-        </section>
-        <section>
-            <h3>Beneficios de Aprender HTML</h3>
-            <ul>
-                <li>Entender la estructura de las páginas web.</li>
-                <li>Facilitar el aprendizaje de otros lenguajes de programación web.</li>
-                <li>Mejorar las habilidades de SEO.</li>
-            </ul>
-        </section>
-        <section>
-            <h3>Recursos para Aprender HTML</h3>
-            <p>A continuación, se presentan algunos recursos útiles:</p>
-            <ul>
-                <li><a href="https://www.w3schools.com/html/" target="_blank">W3Schools</a></li>
-                <li><a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank">MDN Web Docs</a></li>
-                <li><a href="https://www.codecademy.com/learn/learn-html" target="_blank">Codecademy</a></li>
-            </ul>
-        </section>
-        <footer>
-            <p>Etiquetas: <a href="#">HTML</a>, <a href="#">Desarrollo Web</a></p>
-        </footer>
-    </article>
+        <article>
+          <h3>proyecto x</h3>
+          <p>descripción</p>
+        </article>
+        <article>
+          <h3>proyecto y</h3>
+          <p>descripción</p>
+        </article>
+      </section>
 
-    <aside>
-        <section>
-            <h3>Sobre el Autor</h3>
-            <p>Ronaldo Jiménez es un desarrollador backend apasionado por la tecnología y la creación de soluciones innovadoras.</p>
-        </section>
-    </aside>
+      <section>
+        <header>
+          <h2 id="exp">Experiencia</h2>
+          <p>He trabajado en diferentes empresas y proyectos, aquí te dejo un resumen de mi experiencia laboral</p>
+        </header>
+        <article>
+          <h3>Empresa x</h3>
+          <p>descripción</p>
+        </article>
+        <article>
+          <h3>Empresa y</h3>
+          <p>descripción</p>
+        </article>
+      </section>
 
-    <section>
-        <h2>Formulario de Contacto</h2>
-        <form action="/submit-form" method="POST">
-            <div>
-                <label for="name">Nombre:</label>
-                <input type="text" id="name" name="name" required>
-            </div>
-            <div>
-                <label for="email">Correo Electrónico:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div>
-                <label for="subject">Asunto:</label>
-                <input list="subjects" id="subject" name="subject">
-                <datalist id="subjects">
-                    <option value="Consulta General">
-                    <option value="Soporte Técnico">
-                    <option value="Sugerencias">
-                </datalist>
-            </div>
-            <div>
-                <label for="message">Mensaje:</label>
-                <textarea id="message" name="message" required></textarea>
-            </div>
-            <div>
-                <label for="newsletter">Suscribirme al boletín:</label>
-                <input type="checkbox" id="newsletter" name="newsletter">
-            </div>
-            <div>
-                <button type="submit">Enviar</button>
-            </div>
-        </form>
-    </section>
+      <section>
+        <h2 id="skills">Skills</h2>
+        <ul>
+          <li>Python</li>
+          <li>JavaScript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>SQL</li>
+      </section>
+    </main>
 
-    <section>
-        <h2>Contenido Multimedia</h2>
-        <h3>Video de Presentación</h3>
-        <video loop autoplay muted>
-            <source src="media/video.mp4" type="video/mp4">
-            Tu navegador no soporta la etiqueta de video.
-        </video>
-
-        <h3>Podcast Reciente</h3>
-        <audio controls>
-            <source src="media/ManoftheWorld.mp3" type="audio/mp3">
-            Tu navegador no soporta la etiqueta de audio.
-        </audio>
-
-        <h3>Galería de Imágenes</h3>
-        <img loading="lazy" src="https://www.jimcostdev.com/dev.webp" alt="Tecnología">
-    </section>
-
-    <section>
-        <h2>Detalles Adicionales</h2>
-        <details>
-            <summary>Más Información sobre HTML</summary>
-            <p>HTML significa HyperText Markup Language y es el estándar para crear páginas web.</p>
-        </details>
-    </section>
-
-    <section>
-        <h2>Video recomedados</h2>
-        <iframe width="560" height="315" style="width: 100%; aspect-ratio: 16/9;" src="https://www.youtube.com/embed/BZZOuM1UpyI?si=uEwUY4z_lisdz8AP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </section>
-</main>
-
-<footer>
-    <p>&copy; 2024 Ronaldo Jiménez. Todos los derechos reservados.</p>
-</footer>
-
-<dialog id="contact-dialog">
-    <form method="dialog">
-        <p>¿Deseas contactar a Ronaldo Jiménez?</p>
-        <button>Si</button>
-        <button>No</button>
-    </form>
-</dialog>
-
-</body>
+    <!-- El footer o pie de página es la parte inferior de un sitio web.-->
+    <footer>
+      <p>© 2024 Ronaldo Jiménez. Todos los derechos reservados.</p>
+  </body>
 </html>
